@@ -45,17 +45,14 @@ public class FactBook {
             "The word \"nerd\" was first coined by Dr. Seuss in \"If I Ran the Zoo.\"",
             "The human heart creates enough pressure to squirt blood 30 feet (9 m).",
             "Every year about 98% of the atoms in your body are replaced.",
-
     };
+
     //Fields or Member Variables - Properties about the object
-public String getFact() {
 
-
-    Random randomGenerator = new Random();
-    int randomNumber = randomGenerator.nextInt(facts.length);
-    return facts[randomNumber];
-
-
-}
+    public String getFact() {
+        Random randomGenerator = new Random();
+        int randomNumber = randomGenerator.nextInt(facts.length);
+        return facts[randomNumber];
+    }
 
 }
