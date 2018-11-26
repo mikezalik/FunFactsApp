@@ -26,12 +26,10 @@ public class MainActivity extends AppCompatActivity {
     private Button showFactButton;
     private RelativeLayout relativeLayout;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         //Assign the views from the layout file to the corresponding variables
         factTextView = findViewById(R.id.factTextView);
@@ -43,15 +41,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
             String fact = factBook.getFact();
 
-
                 factTextView.setText(fact);
 
                 int color = colorWheel.getColor();
                 relativeLayout.setBackgroundColor(color);
                 }
-
-
             };
+        
         showFactButton.setOnClickListener(listener);
         Toast.makeText(this, "I hope you enjoy these fun facts!", Toast.LENGTH_LONG).show();
         Log.d("FunFactsActivity", "Logging from onCreate() method");
