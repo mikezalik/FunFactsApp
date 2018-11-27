@@ -48,7 +48,6 @@ public class FactBook {
     };
 
     //Fields or Member Variables - Properties about the object
-
     public String getFact() {
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(facts.length);
