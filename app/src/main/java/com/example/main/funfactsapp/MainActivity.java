@@ -54,9 +54,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private Button findViewById(View showFactButton) {
+
         return null;
     }
-
-
 }
 
