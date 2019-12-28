@@ -31,11 +31,10 @@ public class ColorWheel {
         };
 
         //Fields or Member Variables - Properties about the object
-
         public int getColor() {
             Random randomGenerator = new Random();
-            int randomNumber = randomGenerator.nextInt(colors.length);
-            int color = Color.parseColor(colors[randomNumber]);
+                int randomNumber = randomGenerator.nextInt(colors.length);
+                int color = Color.parseColor(colors[randomNumber]);
             return color;
         }
     }
