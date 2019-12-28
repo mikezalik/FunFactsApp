@@ -51,7 +51,7 @@ public class FactBook {
     public String getFact() {
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(facts.length);
-        return facts[randomNumber];
+            return facts[randomNumber];
     }
 
 }
