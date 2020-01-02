@@ -37,5 +37,5 @@ public class ColorWheel {
                 int color = Color.parseColor(colors[randomNumber]);
             return color;
         }
-    }
+}
 
