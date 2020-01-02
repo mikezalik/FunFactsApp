@@ -53,5 +53,4 @@ public class FactBook {
         int randomNumber = randomGenerator.nextInt(facts.length);
             return facts[randomNumber];
     }
-
 }
