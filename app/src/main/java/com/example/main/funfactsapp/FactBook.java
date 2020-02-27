@@ -45,6 +45,8 @@ public class FactBook {
             "The word \"nerd\" was first coined by Dr. Seuss in \"If I Ran the Zoo.\"",
             "The human heart creates enough pressure to squirt blood 30 feet (9 m).",
             "Every year about 98% of the atoms in your body are replaced.",
+            "Banging your head against a wall for one hour burns 150 calories.",
+            "The oldest your mom joke was discovered on a 3,500 year old Babylonian tablet.",
     };
 
     //Fields or Member Variables - Properties about the object
