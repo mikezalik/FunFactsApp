@@ -1,8 +1,5 @@
 package com.example.main.funfactsapp;
 
-import android.annotation.SuppressLint;
-import android.app.ActionBar;
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,11 +8,6 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import java.util.Random;
-
-import static android.os.Build.VERSION_CODES.JELLY_BEAN;
-import static com.example.main.funfactsapp.R.id.showFactButton;
 
 public class MainActivity extends AppCompatActivity {
     private FactBook factBook = new FactBook();
