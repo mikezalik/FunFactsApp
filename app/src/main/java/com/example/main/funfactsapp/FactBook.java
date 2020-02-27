@@ -47,6 +47,7 @@ public class FactBook {
             "Every year about 98% of the atoms in your body are replaced.",
             "Banging your head against a wall for one hour burns 150 calories.",
             "The oldest your mom joke was discovered on a 3,500 year old Babylonian tablet.",
+            "7% of American adults believe that chocolate milk comes from brown cows.",
     };
 
     //Fields or Member Variables - Properties about the object
